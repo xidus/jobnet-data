@@ -8,11 +8,7 @@ import lxml.html
 
 def main():
 
-    fname = 'jobnet.dat'
-    opath = os.path.expanduser('~/Documents/records/data/')
-    os.makedirs(opath, exist_ok=True)
-    ofname = os.path.join(opath, fname)
-
+    ofname = 'jobnet.dat'
     url = 'https://job.jobnet.dk/CV'
     css_strs = [
         '#NoAvailablePositions strong',
