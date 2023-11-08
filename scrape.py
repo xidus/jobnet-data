@@ -13,7 +13,8 @@ def main():
     css_strs = [
         '#NoAvailablePositions strong',
         '#NoNewAvailablePositions strong',
-        '#NoActiveResumes strong',
+        # This dissappeared sometime in august/september 2023 
+        # '#NoActiveResumes strong',
         '#NoPositionsDisplayedLastMonth strong',
     ]
 
