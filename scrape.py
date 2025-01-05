@@ -15,7 +15,8 @@ def main():
         '#NoNewAvailablePositions strong',
         # This dissappeared sometime in august/september 2023 
         # '#NoActiveResumes strong',
-        '#NoPositionsDisplayedLastMonth strong',
+        # This dissappeared i December 2024
+        # '#NoPositionsDisplayedLastMonth strong',
     ]
 
     try:
